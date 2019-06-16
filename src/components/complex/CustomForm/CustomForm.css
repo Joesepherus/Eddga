@@ -1,0 +1,11 @@
+.form {
+  /* width: 70%; */
+}
+
+.form .label {
+  text-align: left;
+}
+
+.form .btn {
+  float: left;
+}

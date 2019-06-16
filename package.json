@@ -1,20 +1,55 @@
 {
-  "name": "zadanie-fe",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+  "name": "ZadanieFE",
+  "version": "0.0.1",
+  "description": "React Web App about monitoring health of its users",
+  "main": "app.js",
+  "engines": {
+    "npm": "6.2.x"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "heroku-postbuild": "cd fe && npm install && npm run build && cp -a ./build/. ./",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "server": "nodemon server.js",
+    "frontend": "node start-frontend.js",
+    "test": "mocha"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "@mdi/js": "^3.6.95",
+    "@mdi/react": "^1.1.1",
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "*",
+    "bootstrap": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "*",
+    "express-jwt": "^5.3.1",
+    "jquery": "^3.3.1",
+    "jwks-rsa": "^1.2.1",
+    "mobx": "^5.10.1",
+    "mobx-react": "^6.0.3",
+    "mongoose": "*",
+    "node-sass": "^4.12.0",
+    "npm-lifecycle": "^2.0.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-floating-action-button": "^1.0.5",
+    "react-manager": "^1.0.4",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-semantic-ui": "^0.2.0",
+    "react-toastify": "^5.2.1",
+    "socket.io": "^2.2.0",
+    "typescript": "^3.5.1"
+  },
+  "author": "Marek Oksa",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "create-react-class": "^15.6.3",
+    "semantic-ui-react": "^0.81.1"
   },
   "browserslist": {
     "production": [

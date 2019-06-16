@@ -1,0 +1,56 @@
+@import '../../../index.scss';
+
+.custom-input {
+  margin-bottom: 0px !important;
+}
+/* .input-text::after {
+    border-bottom-color: $primary !important;
+}
+ */
+.input-label {
+  color: #777777 !important;
+  letter-spacing: 0.15px;
+  font-size: 1rem !important;
+  top: 3px !important;
+  font-weight: 100 !important;
+  opacity: 1 !important;
+}
+
+::-webkit-input-placeholder {
+  opacity: 0.42 !important;
+}
+
+.input-input {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #777777 !important;
+  font-weight: 400;
+  margin: 0px!important;
+  line-height: 25px!important;
+}
+
+.input-input::after {
+  border-bottom-color: #777777 !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+  /*   color: $danger !important; */
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.text-right {
+  input {
+    text-align: right;
+  }
+}

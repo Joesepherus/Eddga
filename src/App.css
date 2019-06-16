@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -29,5 +30,100 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.userDetail {
+  width: 100%;
+  text-align: left;
+  padding: 20px 200px;
+      flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.userDetail_btns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.userDetail .userDetail_btns button {
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: rgba(255,255,255,.5);
+  align-self: center;
+}
+
+.userAlert {
+  border: 2px solid red;
+}
+
+.App .addUser {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+.userDetail-data {
+  width: 80%;
+}
+
+.navbar a {
+  padding-right: 20px;
+}
+
+.modal {
+  top: unset;
+  left: unset;
+  height: unset;
+}
+
+.card {
+  transition: all .2s ease-in-out; 
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+
+.navbar-light .navbar-brand{
+  color: white;
+}
+
+.navbar-light .navbar-toggler {
+  color:white;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: white;
+}
+
+.activeLink {
+  font-weight: 600;
+}
+
+.form {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .navbar a {
+    padding-right: 0px;
+  }
+
+  .App .addUser {
+    padding: 20px 0px;
+  }
+
+  .userDetail {
+    padding: 20px 0px;
   }
 }
