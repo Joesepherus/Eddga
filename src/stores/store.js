@@ -18,21 +18,21 @@ class store {
   products = [
     {
       id: 0,
-      name: 'tities',
+      name: 'Kapsička Felix Party Mix Original Mix 60g',
       description: 'big round',
       price: 99,
       gallery: [
-        'https://i.pinimg.com/736x/84/e4/a7/84e4a793b7ee98d4e50ab006fa31daff.jpg'
+        'https://www.petcenter.sk/media/catalog/product/cache/4/image/700x700/9df78eab33525d08d6e5fb8d27136e95/3/3/330563-kap.fe_party_mix_original_mix_60g.jpg'
       ],
       order_id: 1233
     },
     {
       id: 1,
-      name: 'ass',
-      description: 'nice, very nice',
+      name: 'Mlsoun drops pre hlodavce pomarančový 75g',
+      description: 'Pre hlodavce',
       price: 88,
       gallery: [
-        'https://i.kinja-img.com/gawker-media/image/upload/s---26zrcai--/18jfzn42jao4pjpg.jpg'
+        'https://www.petcenter.sk/media/catalog/product/cache/4/image/700x700/9df78eab33525d08d6e5fb8d27136e95/3/0/301349.jpg'
       ],
       order_id: 86548952
     }
