@@ -30,7 +30,7 @@
     "mobx": "^5.10.1",
     "mobx-react": "^6.0.3",
     "mongoose": "*",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "npm-lifecycle": "^2.0.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
